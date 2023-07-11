@@ -1,21 +1,201 @@
-body   {
+
+.body   {
       font-family: 'Open Sans', sans-serif;
 
 }
-.text-primary {
-      color:palevioletred
-
-}
-
-.nav{
+.div {
+      display: flex;
+      justify-content: space-around;
+      height: 100vh;
+      align-items: center;
       border-spacing: 5px;
-      background-color: rgb(243, 230, 232);
-}     
-nav li{
-      list-style: none;
+      background-color: rgb(233, 192, 198);
+      background:cover
+
+     }
+.text-primary   {
+      color:rgb(231, 3, 79)
+
 }
-.btn{
-      border: radius 5px;
-      background-color:crimson;
+.h1 {
+      margin: 20 ;
+      padding: 5px;
+      text-align:left;
+}
+
+      .btn{
+            border: radius 5px;
+            background-color:rgb(243, 107, 134);
+            color: rgb(243, 243, 240);
+            padding: 7px
+      } 
+      .li {
+      list-style: none;
+     }   
+    
+     .image {
+      flex-shrink: 0;
+      background:cover
+
+     }
+     .image1 {
+      width: 464px;
+      height: 538px;
+      flex-shrink: 0;
+      border-radius: 300px 300px 0px 0px;
+      background-color:burlywood;
+     }
+     .image2 {
+      width: 464px;
+      height: 538px;
+      flex-shrink: 0;
+      border-radius: 300px 300px 0px 0px;
+      background-color:yellowgreen
+     }
+     .image3 {
+      width: 464px;
+      height: 538px;
+      flex-shrink: 0;
+      border-radius: 300px 300px 0px 0px;
+      background-color:rgb(243, 107, 134)
+}
+     .h3 {
+      text-align: center;
+      color:rgb(197, 67, 132)
+
+     }
+     .color1 {
+      font-weight: 700;
+      line-height: 35px;
+      text-decoration-line: underline;
+      background-color:yellowgreen ;
+      color:white;
+      text-align: center;
+     }
+     .color2 {
+      font-weight: 700;
+      line-height: 35px;
+      text-decoration-line: underline;
+      background-color:aqua ;
+      color:white;
+      text-align: center;
+}
+.color3 {
+      font-weight: 700;
+      line-height: 35px;
+      text-decoration-line: underline;
+      background-color:rgb(238, 121, 141) ;
+      color:white;
+      text-align: center;
+}
+     .div3 {
+      display: flex;
+      justify-content:center;
+      text-align: left 3px;
+      background-color:lightpink
+     }
+     
+     .div1   {
+      display: flex;
+      justify-content:center;
+      height:420px;
+      align-items: center;
+      flex-shrink: 0;
+      background-color: lightskyblue;
+      background:cover
+}
+.text-primary1{
+      color:rgb(197, 67, 132); 
+      text-align: center;
+
+}
+.div4 {
+      display: flex;
+      justify-content:center;
+      text-align: left 3px;
+      background-color:bisque;
+}
+.color4 {
+      font-weight: 700;
+      line-height: 35px;
+      text-decoration-line: underline;
+      background-color:yellow;
+      color:green;
+      text-align: center;
+      margin: 3px;
+     }
+     .color5 {
+      font-weight: 700;
+      line-height: 35px;
+      text-decoration-line: underline;
+      background-color:aqua ;
+      color:brown;
+      text-align: center;
+      margin: 3px;
+}
+.color6 {
+      font-weight: 700;
+      line-height: 35px;
+      text-decoration-line: underline;
+      background-color:rgb(236, 213, 216) ;
+      color:brown;
+      text-align: center;
+      margin: 3px;
+}
+.background{
+      background-image: url("Rectangle 9.png");
       
 }
+.text{
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      
+}
+.btn1{
+      width: 700px;
+      height: 63px;
+      flex-shrink: 0;
+      border-radius: 8px;
+       background: #FFF;
+       font-size: small;
+}
+
+.btn2{
+      display: flex;
+      justify-content: center;
+      height: 5px;
+      align-items: center;
+}
+.text-primary1 {
+      color:rgb(156, 31, 94); 
+      text-align: center;
+}
+.text-primary2 {
+      color:whitesmoke; 
+      text-align: center;
+       text-height: 10px;
+}
+.btn3{
+      align-items: center;
+      border: radius 10px;
+      background-color:rgb(47, 92, 175);
+      color: rgb(243, 243, 240);
+      padding: 15px;
+      text-align: center;
+      
+}
+
+.bg1{
+     background-color: rgb(15, 13, 13);
+}
+.center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      background-color: cornflowerblue;
+}
+
+
+      
